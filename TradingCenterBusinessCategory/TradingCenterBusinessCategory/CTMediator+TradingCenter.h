@@ -10,6 +10,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CTMediator (TRZXConfirmFinancing)
-- (UIViewController *)tradingCenterViewControllerWithVcTitle:(NSString *)projectTitle;
+- (UIViewController *)tradingCenterViewControllerWithVcTitle:(NSString *)vcTitle;
 
 @end
