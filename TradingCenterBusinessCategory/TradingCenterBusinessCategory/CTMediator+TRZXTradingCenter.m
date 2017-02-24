@@ -6,10 +6,10 @@
 //  Copyright © 2017年 TRZX. All rights reserved.
 //
 
-#import "CTMediator+TradingCenter.h"
+#import "CTMediator+TRZXTradingCenter.h"
 
-@implementation CTMediator (TRZXConfirmFinancing)
-- (UIViewController *)tradingCenterViewControllerWithVcTitle:(NSString *)vcTitle{
+@implementation CTMediator (TRZXTradingCenter)
+- (UIViewController *)tradingCenterViewController:(NSString *)vcTitle{
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"vcTitle"] = vcTitle;
     return [self performTarget:@"TRZXTradingCenter" action:@"TradingCenterViewController" params:params shouldCacheTarget:NO];

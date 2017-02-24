@@ -13,7 +13,7 @@
 		715998821E5FEC8D006D94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715998801E5FEC8D006D94F4 /* Main.storyboard */; };
 		715998841E5FEC8D006D94F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715998831E5FEC8D006D94F4 /* Assets.xcassets */; };
 		715998871E5FEC8D006D94F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715998851E5FEC8D006D94F4 /* LaunchScreen.storyboard */; };
-		715998911E5FECCF006D94F4 /* CTMediator+TradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998901E5FECCF006D94F4 /* CTMediator+TradingCenter.m */; };
+		715998911E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998901E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.m */; };
 		93B619E1D4453499F78C5580 /* libPods-TradingCenterBusinessCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80949C479A1AC54270482516 /* libPods-TradingCenterBusinessCategory.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		715998831E5FEC8D006D94F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715998861E5FEC8D006D94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		715998881E5FEC8D006D94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7159988F1E5FECCF006D94F4 /* CTMediator+TradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TradingCenter.h"; sourceTree = "<group>"; };
-		715998901E5FECCF006D94F4 /* CTMediator+TradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TradingCenter.m"; sourceTree = "<group>"; };
+		7159988F1E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXTradingCenter.h"; sourceTree = "<group>"; };
+		715998901E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXTradingCenter.m"; sourceTree = "<group>"; };
 		80949C479A1AC54270482516 /* libPods-TradingCenterBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TradingCenterBusinessCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824E55A10136CB07D84162EE /* Pods-TradingCenterBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenterBusinessCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenterBusinessCategory/Pods-TradingCenterBusinessCategory.debug.xcconfig"; sourceTree = "<group>"; };
 		D677DD2A9C0645087AFE7FD5 /* Pods-TradingCenterBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenterBusinessCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenterBusinessCategory/Pods-TradingCenterBusinessCategory.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		7159988E1E5FECC6006D94F4 /* TradingCenterBusinessCategory */ = {
 			isa = PBXGroup;
 			children = (
-				7159988F1E5FECCF006D94F4 /* CTMediator+TradingCenter.h */,
-				715998901E5FECCF006D94F4 /* CTMediator+TradingCenter.m */,
+				7159988F1E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.h */,
+				715998901E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.m */,
 			);
 			path = TradingCenterBusinessCategory;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			files = (
 				7159987F1E5FEC8D006D94F4 /* ViewController.m in Sources */,
 				7159987C1E5FEC8D006D94F4 /* AppDelegate.m in Sources */,
-				715998911E5FECCF006D94F4 /* CTMediator+TradingCenter.m in Sources */,
+				715998911E5FECCF006D94F4 /* CTMediator+TRZXTradingCenter.m in Sources */,
 				715998791E5FEC8D006D94F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

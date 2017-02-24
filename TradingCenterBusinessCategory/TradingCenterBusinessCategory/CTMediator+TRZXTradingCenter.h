@@ -9,7 +9,7 @@
 #import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
 
-@interface CTMediator (TRZXConfirmFinancing)
-- (UIViewController *)tradingCenterViewControllerWithVcTitle:(NSString *)vcTitle;
+@interface CTMediator (TRZXTradingCenter)
+- (UIViewController *)tradingCenterViewController:(NSString *)vcTitle;
 
 @end
